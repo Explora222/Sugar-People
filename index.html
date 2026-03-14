@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sugar People Soweto | Vilakazi Street Fine Dining</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-logo">Sugar People</div>
+    <div class="preloader-line"></div>
+    <div class="preloader-sub">Vilakazi Street · Soweto</div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">Sugar People<span>Soweto · Est. Vilakazi Street</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#location">Location</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-reserve">Reserve a Table</a>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose">✕</button>
+    <a href="#about" onclick="closeMobile()">About</a>
+    <a href="#menu" onclick="closeMobile()">Menu</a>
+    <a href="#reviews" onclick="closeMobile()">Reviews</a>
+    <a href="#gallery" onclick="closeMobile()">Gallery</a>
+    <a href="#location" onclick="closeMobile()">Location</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg" id="heroBg"></div>
+    <div class="hero-texture"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Vilakazi Street · Orlando West · Soweto</p>
+      <h1 class="hero-title">Sugar<em>People</em></h1>
+      <div class="hero-divider"></div>
+      <p class="hero-tagline">Experience the True Taste of Soweto</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn-gold"><span>View Our Menu</span></a>
+        <a href="#contact" class="btn-outline">Reserve a Table</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-badge">
+      <div class="hero-badge-inner">
+        <div class="stars">★★★★★</div>
+        <div class="rating">4.5</div>
+        <div class="reviews">35 Reviews</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-section">
+    <div class="marquee-track" id="marqueeTrack">
+      <span class="marquee-item">Fine Dining</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Soweto Culture</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Premium Cuisine</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Vilakazi Street</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Open Until Midnight</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">4.5 ★ Google Rating</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Fine Dining</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Soweto Culture</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Premium Cuisine</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Vilakazi Street</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">Open Until Midnight</span><span class="marquee-dot">✦</span>
+      <span class="marquee-item">4.5 ★ Google Rating</span><span class="marquee-dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-container">
+      <div class="about-text reveal-left">
+        <p class="section-label">Our Story</p>
+        <h2 class="section-title">Where <em>Soweto</em><br>Meets Luxury</h2>
+        <div class="gold-line"></div>
+        <p>Nestled on the iconic <strong>Vilakazi Street</strong> in Orlando West, Sugar People Soweto is more than a
+          restaurant — it is a celebration of Soweto's vibrant soul, rich history, and the warm spirit of its people. We
+          are proud to be part of one of the most famous streets in the world.</p>
+        <p>Our culinary philosophy honours the boldness of South African flavours while weaving in refined techniques
+          that transform every visit into an extraordinary dining experience. From sunset dinners to late-night
+          indulgences, Sugar People is where <strong>heritage meets elegance</strong>.</p>
+        <p>Our chefs draw inspiration from generations of South African cooking — braai traditions, spice routes, and
+          township ingenuity — crafted into dishes that are as beautiful as they are delicious.</p>
+        <div class="about-stats">
+          <div class="stat-item reveal" style="transition-delay:0.1s">
+            <div class="stat-number">4.5</div>
+            <div class="stat-label">Google Rating</div>
+          </div>
+          <div class="stat-item reveal" style="transition-delay:0.2s">
+            <div class="stat-number">35+</div>
+            <div class="stat-label">Happy Reviews</div>
+          </div>
+          <div class="stat-item reveal" style="transition-delay:0.3s">
+            <div class="stat-number">12am</div>
+            <div class="stat-label">We Close Late</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-images reveal-right">
+        <img class="about-img-main" src="7 colors.webp" alt="Sugar People Interior" loading="lazy" />
+        <img class="about-img-accent" src="henny.webp" alt="Dining Experience" loading="lazy" />
+        <div class="about-gold-box"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu">
+    <div class="menu-container">
+      <div class="menu-header reveal">
+        <p class="section-label">Curated Selections</p>
+        <h2 class="section-title">Our <em>Signature</em> Menu</h2>
+        <div class="gold-line"></div>
+        <p
+          style="font-family:var(--font-body);font-size:1.05rem;color:var(--warm-grey);max-width:500px;margin:0 auto;font-style:italic;">
+          A journey through South African flavour, elevated with a touch of luxury</p>
+      </div>
+      <div class="menu-tabs reveal">
+        <button class="tab-btn active" onclick="switchTab('starters')">Starters</button>
+        <button class="tab-btn" onclick="switchTab('mains')">Mains</button>
+        <button class="tab-btn" onclick="switchTab('desserts')">Desserts</button>
+        <button class="tab-btn" onclick="switchTab('drinks')">Drinks</button>
+      </div>
+
+      <!-- Starters -->
+      <div class="menu-tab-content active" id="tab-starters">
+        <div class="menu-card reveal" style="transition-delay:0.1s">
+          <div class="menu-card-img">
+            <img src="wors.jpg" alt="Spiced Boerewors Bites" loading="lazy" />
+            <div class="menu-card-badge">Chef's Pick</div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Spiced Boerewors Bites</div>
+            <div class="menu-card-desc">Tender boerewors with chakalaka chutney, peri-peri drizzle & fresh herb garnish
+            </div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 95</div>
+              <div class="menu-card-tag">Starter</div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card reveal" style="transition-delay:0.2s">
+          <div class="menu-card-img">
+            <img src="salad.jpg" alt="Soweto Garden Salad" loading="lazy" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Soweto Garden Salad</div>
+            <div class="menu-card-desc">Fresh greens, rooibos-marinated feta, candied almonds, honey-citrus dressing
+            </div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 85</div>
+              <div class="menu-card-tag">Vegetarian</div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card reveal" style="transition-delay:0.3s">
+          <div class="menu-card-img">
+            <img src="prawn.jpg" alt="Prawn Peri-Peri Skewers" loading="lazy" />
+            <div class="menu-card-badge">Popular</div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Prawn Peri-Peri Skewers</div>
+            <div class="menu-card-desc">Flame-grilled king prawns, peri-peri butter, toasted ciabatta, lemon wedge</div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 145</div>
+              <div class="menu-card-tag">Seafood</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mains -->
+      <div class="menu-tab-content" id="tab-mains">
+        <div class="menu-card reveal" style="transition-delay:0.1s">
+          <div class="menu-card-img">
+            <img src="platter.jpg" alt="Signature Braai Platter" loading="lazy" />
+            <div class="menu-card-badge">Signature</div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Signature Braai Platter</div>
+            <div class="menu-card-desc">Mixed grilled meats, pap, chakalaka, roasted vegetables & house chimichurri
+            </div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 285</div>
+              <div class="menu-card-tag">For Two</div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card reveal" style="transition-delay:0.2s">
+          <div class="menu-card-img">
+            <img src="oxtail.jpg" alt="Oxtail Potjie" loading="lazy" />
+            <div class="menu-card-badge">Heritage</div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Slow-Cooked Oxtail Potjie</div>
+            <div class="menu-card-desc">Cape Malay spiced oxtail, butternut, pearl onions, creamy mielie pap</div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 220</div>
+              <div class="menu-card-tag">Main Course</div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card reveal" style="transition-delay:0.3s">
+          <div class="menu-card-img">
+            <img src="pan.jpg" alt="Pan-Seared Kingklip" loading="lazy" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Pan-Seared Kingklip</div>
+            <div class="menu-card-desc">South Atlantic kingklip, saffron cream, wilted spinach, lemon caper butter</div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 265</div>
+              <div class="menu-card-tag">Seafood</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts -->
+      <div class="menu-tab-content" id="tab-desserts">
+        <div class="menu-card reveal" style="transition-delay:0.1s">
+          <div class="menu-card-img">
+            <img src="Melktert.jpg" alt="Melktert Brûlée" loading="lazy" />
+            <div class="menu-card-badge">Favourite</div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Melktert Brûlée</div>
+            <div class="menu-card-desc">Classic melktert with caramelised top, rooibos ice cream, almond crumble</div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 75</div>
+              <div class="menu-card-tag">Dessert</div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card reveal" style="transition-delay:0.2s">
+          <div class="menu-card-img">
+            <img src="dark chocolate.jpg" alt="Chocolate Fondant" loading="lazy" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Dark Chocolate Fondant</div>
+            <div class="menu-card-desc">Valrhona dark chocolate, warm centre, amarula custard, gold dust</div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 95</div>
+              <div class="menu-card-tag">Dessert</div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card reveal" style="transition-delay:0.3s">
+          <div class="menu-card-img">
+            <img src="sundae.jpg" alt="Koeksister Sundae" loading="lazy" />
+            <div class="menu-card-badge">Local Love</div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Koeksister Sundae</div>
+            <div class="menu-card-desc">Warm koeksisters, vanilla soft serve, coconut syrup, toasted coconut flakes
+            </div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 70</div>
+              <div class="menu-card-tag">Dessert</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Drinks -->
+      <div class="menu-tab-content" id="tab-drinks">
+        <div class="menu-card reveal" style="transition-delay:0.1s">
+          <div class="menu-card-img">
+            <img src="soweto.jpg" alt="Soweto Sunset Cocktail" loading="lazy" />
+            <div class="menu-card-badge">Signature</div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Soweto Sunset</div>
+            <div class="menu-card-desc">Amarula, dark rum, passion fruit, orange bitters, smoked ice, edible gold</div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 110</div>
+              <div class="menu-card-tag">Cocktail</div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card reveal" style="transition-delay:0.2s">
+          <div class="menu-card-img">
+            <img src="wine.jpg" alt="Cape Winelands Selection" loading="lazy" />
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Cape Winelands Selection</div>
+            <div class="menu-card-desc">Premium South African red, white or rosé wines — ask your waiter for today's
+              selection</div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">From R 55</div>
+              <div class="menu-card-tag">Wine</div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-card reveal" style="transition-delay:0.3s">
+          <div class="menu-card-img">
+            <img src="rooibos.jpg" alt="Rooibos Elixir" loading="lazy" />
+            <div class="menu-card-badge">Non-Alcoholic</div>
+          </div>
+          <div class="menu-card-body">
+            <div class="menu-card-name">Rooibos Elixir</div>
+            <div class="menu-card-desc">Cold-brew rooibos, honey, lemon verbena, ginger, sparkling water & fresh mint
+            </div>
+            <div class="menu-card-footer">
+              <div class="menu-card-price">R 55</div>
+              <div class="menu-card-tag">Non-Alcoholic</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section id="video">
+    <div class="video-container">
+      <div class="video-header reveal">
+        <p class="section-label">A Taste of Our World</p>
+        <h2 class="section-title">Watch the <em>Experience</em></h2>
+        <div class="gold-line"></div>
+        <p style="font-family:var(--font-body);font-size:1.05rem;color:var(--warm-grey);font-style:italic;">Step inside
+          Sugar People and feel the heartbeat of Soweto</p>
+      </div>
+      <div class="video-wrapper reveal" id="videoWrapper">
+        <div class="video-placeholder" id="videoPlaceholder" onclick="loadVideo()">
+          <div class="play-btn">
+            <svg viewBox="0 0 24 24">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+          </div>
+          <div class="video-caption">Play Promotional Video</div>
+        </div>
+      </div>
+      <p
+        style="font-family:var(--font-sans);font-size:0.5rem;letter-spacing:0.3em;color:var(--warm-grey);text-transform:uppercase;margin-top:1.2rem;text-align:center;">
+      </p>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews">
+    <div class="reviews-container">
+      <div class="reviews-header reveal">
+        <p class="section-label">Guest Experiences</p>
+        <h2 class="section-title">What Our <em>Guests</em> Say</h2>
+        <div class="gold-line"></div>
+      </div>
+      <div class="rating-showcase reveal">
+        <div class="rating-big">
+          <div class="rating-num">4.5</div>
+          <div class="rating-stars">★★★★½</div>
+          <div class="rating-count">35 Google Reviews</div>
+        </div>
+        <div class="rating-divider"></div>
+        <div class="rating-bars">
+          <div class="bar-row"><span class="bar-label">5★</span>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:70%"></div>
+            </div>
+          </div>
+          <div class="bar-row"><span class="bar-label">4★</span>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:20%"></div>
+            </div>
+          </div>
+          <div class="bar-row"><span class="bar-label">3★</span>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:7%"></div>
+            </div>
+          </div>
+          <div class="bar-row"><span class="bar-label">2★</span>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:2%"></div>
+            </div>
+          </div>
+          <div class="bar-row"><span class="bar-label">1★</span>
+            <div class="bar-track">
+              <div class="bar-fill" style="width:1%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card reveal" style="transition-delay:0.1s">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Absolutely spectacular evening. The oxtail potjie transported me back to my
+            grandmother's kitchen — but elevated to an art form. The ambience on Vilakazi Street is truly magical. Sugar
+            People is a gem."</p>
+          <div class="review-author">
+            <div class="review-avatar">TM</div>
+            <div>
+              <div class="review-name">Thandi Mokoena</div>
+              <div class="review-date">2 weeks ago · Google Review</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal" style="transition-delay:0.2s">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"We visited for a birthday dinner and were blown away. Every detail — from the plating
+            to the service — felt intentional and luxurious. The Soweto Sunset cocktail alone is worth the trip. Highly
+            recommend!"</p>
+          <div class="review-author">
+            <div class="review-avatar">KN</div>
+            <div>
+              <div class="review-name">Kabelo Ndlovu</div>
+              <div class="review-date">1 month ago · Google Review</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal" style="transition-delay:0.3s">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"If you're visiting Soweto, Sugar People is absolutely non-negotiable. The culture, the
+            food, the warmth of the staff — everything blends into something truly unforgettable. Best meal I've had in
+            Jozi."</p>
+          <div class="review-author">
+            <div class="review-avatar">LV</div>
+            <div>
+              <div class="review-name">Lerato Vilakazi</div>
+              <div class="review-date">3 weeks ago · Google Review</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:2rem;">
+        <div class="google-badge reveal">
+          <span class="g-icon">🌐</span>
+          <span>Rated 4.5 on Google · 35 Reviews</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARALLAX QUOTE -->
+  <div class="parallax-quote">
+    <blockquote class="reveal">"In Soweto, every meal is a <em>celebration</em> — a conversation between flavour,
+      memory, and the promise of tomorrow."</blockquote>
+    <cite class="reveal">— Sugar People Soweto, Vilakazi Street</cite>
+  </div>
+
+  <!-- LOCATION -->
+  <section id="location">
+    <div class="location-container">
+      <div class="location-info">
+        <p class="section-label reveal">Find Us</p>
+        <h2 class="section-title reveal">Visit Us on <em>Vilakazi</em> Street</h2>
+        <div class="gold-line reveal"></div>
+        <div class="location-detail reveal" style="transition-delay:0.1s">
+          <div class="detail-icon">📍</div>
+          <div>
+            <div class="detail-title">Address</div>
+            <div class="detail-value">Vilakazi Street, Orlando West<br>Soweto, 1804<br>Gauteng, South Africa</div>
+          </div>
+        </div>
+        <div class="location-detail reveal" style="transition-delay:0.2s">
+          <div class="detail-icon">🕐</div>
+          <div>
+            <div class="detail-title">Opening Hours</div>
+            <div class="hours-grid">
+              <span class="hours-day">Monday – Thursday</span><span class="hours-time">11:00 – 00:00</span>
+              <span class="hours-day">Friday – Saturday</span><span class="hours-time">11:00 – 00:00</span>
+              <span class="hours-day">Sunday</span><span class="hours-time">11:00 – 00:00</span>
+            </div>
+          </div>
+        </div>
+        <div class="location-detail reveal" style="transition-delay:0.3s">
+          <div class="detail-icon">📞</div>
+          <div>
+            <div class="detail-title">Reservations</div>
+            <div class="detail-value">+27 (0) 68 505 0264<br><span style="font-size:0.85rem;color:var(--warm-grey);">Or
+                use our contact form below</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="map-wrapper reveal-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1789.3514645807888!2d27.902324274057058!3d-26.238840479033392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a7dfcff66e37%3A0x30f8628b1f659761!2sSugar%20People%20On%20Vilakazi%20Street!5e0!3m2!1sen!2sza!4v1773508122838!5m2!1sen!2sza"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" title="Sugar People On Vilakazi Street">
+        </iframe>
+        <div class="map-overlay">
+          <p>Sugar People Soweto</p>
+          <span>Vilakazi Street, Orlando West</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="gallery-container">
+      <div class="gallery-header reveal">
+        <p class="section-label">Visual Stories</p>
+        <h2 class="section-title">The Sugar People <em>Experience</em></h2>
+        <div class="gold-line"></div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large" onclick="openLightbox(this)">
+          <img src="platter.WEBP" alt="Restaurant Interior" loading="lazy" />
+          <div class="gallery-overlay"><span>Fine Dining</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="fish.WEBP" alt="Grilled Dishes" loading="lazy" />
+          <div class="gallery-overlay"><span>Braai Selection</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="cock 1.webp" alt="Cocktails" loading="lazy" />
+          <div class="gallery-overlay"><span>Signature Cocktails</span></div>
+        </div>
+        <div class="gallery-item tall" onclick="openLightbox(this)">
+          <img src="int 2.webp" alt="Chef at Work" loading="lazy" />
+          <div class="gallery-overlay"><span>Our Kitchen</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="7 colors.webp" alt="Plated Dish" loading="lazy" />
+          <div class="gallery-overlay"><span>Plated Perfection</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="ambience.webp" alt="Ambience" loading="lazy" />
+          <div class="gallery-overlay"><span>The Ambience</span></div>
+        </div>
+        <div class="gallery-item" onclick="openLightbox(this)">
+          <img src="cocktail.webp" alt="Dessert" loading="lazy" />
+          <div class="gallery-overlay"><span>Sweet Endings</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="contact-container">
+      <div class="contact-form-wrapper">
+        <p class="section-label reveal">Get in Touch</p>
+        <h2 class="section-title reveal">Make a <em>Reservation</em></h2>
+        <div class="gold-line reveal"></div>
+        <form class="contact-form" onsubmit="submitForm(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="Your first name" required />
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Your last name" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="+27 XX XXX XXXX" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Date</label>
+              <input type="date" required />
+            </div>
+            <div class="form-group">
+              <label>Number of Guests</label>
+              <select>
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+                <option>5–8 Guests</option>
+                <option>9+ Guests (Group)</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Special Requests</label>
+            <textarea placeholder="Dietary requirements, celebrations, seating preferences..."></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Confirm Reservation</button>
+        </form>
+      </div>
+      <div class="contact-info-panel">
+        <p class="section-label reveal">Contact Information</p>
+        <h2 class="section-title reveal">We'd Love<br><em>to Host You</em></h2>
+        <div class="gold-line reveal"></div>
+        <div class="info-card reveal" style="transition-delay:0.1s">
+          <div class="info-icon">📍</div>
+          <div>
+            <div class="info-card-title">Address</div>
+            <div class="info-card-value">Vilakazi Street, Orlando West<br>Soweto, 1804</div>
+          </div>
+        </div>
+        <div class="info-card reveal" style="transition-delay:0.2s">
+          <div class="info-icon">📞</div>
+          <div>
+            <div class="info-card-title">Phone</div>
+            <div class="info-card-value">+27 (0) 68 505 0264</div>
+          </div>
+        </div>
+        <div class="info-card reveal" style="transition-delay:0.3s">
+          <div class="info-icon">✉️</div>
+          <div>
+            <div class="info-card-title">Email</div>
+            <div class="info-card-value">sugarpeopleonvilakazi@gmail.com</div>
+          </div>
+        </div>
+        <div class="info-card reveal" style="transition-delay:0.4s">
+          <div class="info-icon">🕐</div>
+          <div>
+            <div class="info-card-title">Hours</div>
+            <div class="info-card-value">
+              <div class="hours-mini">
+                <strong>Monday – Sunday</strong><br>
+                11:00 AM — 12:00 AM (Midnight)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo">Sugar People<span>Soweto · Vilakazi Street</span></a>
+        <p>Where culture meets cuisine. A luxury dining experience in the heart of Soweto, celebrating the vibrant
+          spirit of Vilakazi Street since our first day of service.</p>
+        <div class="social-links">
+          <a href="#" class="social-link" title="Instagram">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+          </a>
+          <a href="#" class="social-link" title="Facebook">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+          </a>
+          <a href="#" class="social-link" title="Twitter/X">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path
+                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+            </svg>
+          </a>
+          <a href="#" class="social-link" title="TikTok">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path
+                d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93v6.16c0 2.52-1.12 4.84-2.9 6.24-1.72 1.39-3.92 1.98-6.09 1.63-2.17-.35-4.14-1.58-5.42-3.38-1.28-1.79-1.75-4.11-1.29-6.29.46-2.18 1.82-4.08 3.73-5.22 1.91-1.14 4.26-1.33 6.33-.52v4.1c-.89-.52-1.96-.65-2.95-.37-.99.28-1.83.95-2.32 1.85-.49.9-.58 1.97-.25 2.94.33.97 1.05 1.76 1.98 2.18.93.42 2 .44 2.95.06.95-.38 1.7-1.13 2.07-2.08.21-.53.31-1.1.31-1.67V.02z" />
+            </svg>
+          </a>
+          <a href="#" class="social-link" title="WhatsApp">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#menu">Our Menu</a></li>
+          <li><a href="#video">Video Tour</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Opening Hours</h4>
+        <div class="hours-mini">
+          <strong>Monday – Friday</strong><br>
+          11:00 AM – 12:00 AM<br><br>
+          <strong>Saturday – Sunday</strong><br>
+          11:00 AM – 12:00 AM
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Location</h4>
+        <div class="hours-mini">
+          Vilakazi Street<br>
+          Orlando West<br>
+          Soweto, 1804<br>
+          Gauteng, South Africa<br><br>
+          <strong style="color:var(--gold)">★ 4.5 on Google</strong>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 Sugar People Soweto. All rights reserved.</p>
+      <p class="footer-credit">Designed By <span>Shumani Monyai</span></p>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+    <img id="lightboxImg" src="" alt="" />
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">
+    <svg viewBox="0 0 24 24">
+      <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" />
+    </svg>
+  </button>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">Reservation Sent! We'll be in touch shortly. ✦</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
